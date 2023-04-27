@@ -1,0 +1,22 @@
+1. Napisz serwis serwis internetowy pizz w języku PHP, w systemie mają znajdowac się dwie role, użytkownik i administrator
+2. Podczas migracji tworzenia bazy powinno utworzyć się jedno konto administratora
+3. Podczas migracji tworzenia bazy powinny utworzyć 4 pizze z dowolnymi opisami i cenami
+4. Użytkownik będzie mógł sie zalogować; hasło musi być hashowane, oraz szyfrowane szyfrem cezara o przesunięciu o 3 znaki po szyfrowaniu
+5. Na stronie ma się znajdować formularz logowania który będzie przechowywał login i hasło
+6. Na stronie ma znajdować się formularz rejestracji który na którym ma się znajdować login, hasło i email; email musi być walidowany a domyślna rola to użytkownik
+7. Cała strona powinna mieć kolorystykę CKZiU Jaworzno i powinna być ostylowana
+8. Po zalogowaniu użytkownik powinien móc edytować swoje dane, zmianę trzeba potwierdzić wpisaniem hasła
+9. Po zalogowaniu użytkownik powinien móc zakupić pizzę
+10. Użytkownik powinien mieć historię zakupów i pizze która są w przygotowaniu
+11. Administrator powinien móc wysłać pizzę do użytkownika; wtedy pizza przechodzi do zakładki historia zakupów
+12. Użytkownik powinien móc wyświetlić sumę cen swoich zamówień, które są w historii
+
+13. Dodać rolę dostawca
+14. Dostawca/admin nie może zamawiać pizzy
+15. Dostawca może zmienić status pizzy na "w dostawie" lub "odebrana"
+16. Admin może zmienić status pizzy na "w przygotowaniu"
+17. Wszystkie statusy mają pojawić się z datą, kiedy się zmieniły
+18. Admin ma otrzymać możliwość dodawania pizzy bez zdjęć
+19. Admin ma możliwość usuwania pizzy w stylu "soft delete" dzięki czemu nie znika z historii użytkownika, ale nie może jej ponownie zamówić; a w panelu admina jest ukazana jako usunięta
+20. Dodać funkcjonalność chatu supportu wewnątrz aplikacji; użytkownik może napisać do supportu administratora którą widzi każdy użytkownik z rolą admin, natomiast użytkownik widzi tylko swoje wiadomości
+21. Admin może dodawać dostawców

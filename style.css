@@ -1,0 +1,295 @@
+* {
+    color: #333;
+    font-family: 'Jost', sans-serif;
+}
+
+body {
+    background-image: url('background-img.png');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginContainer {
+    background-color: #F4F1DE;
+    height: 100vh;
+    width: 20%;
+    min-width: 400px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postForm input {
+    width: 280px;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 0;
+    border: 0.5px solid black;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+.postForm button {
+    width: 200px;
+    display: block;
+    margin: 4px auto;
+    padding: 8px;
+    border: 2px solid #ddd;    
+    background-color: #64B899;  
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.postForm button:hover {
+    border-style: dashed;    
+    background-color: #7cd1b2;
+}
+
+.pizzaLogo {
+    width: 70%;
+    margin: 20px;
+}
+
+/* top bar */
+
+header {
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: sticky;
+    background-color: #F4F1DE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header div a {
+    text-decoration: none;
+}
+
+header div button {
+    width: 180px;
+    margin: 0 6px;
+    padding: 8px;
+    display: block;
+    border: 2px solid #ddd;    
+    background-color: #64B899;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+header div button:hover {
+    border-style: dashed;
+    background-color: #7cd1b2;
+}
+
+/* Main Page */
+
+.main-page {
+    background-color: rgb(252, 204, 128);
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 18px 24px;
+}
+
+.main-page th {
+    font-size: 24px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.main-page td {
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-page form button {
+    display: block;
+    padding: 6px 12px;
+    border: 2px solid #ddd;    
+    background-color: rgb(226, 70, 69);
+    font-size: 16px;
+    color: whitesmoke;    
+}
+
+.main-page form button:hover {
+    border-style: dashed;
+    background-color: rgb(224, 95, 95);
+}
+
+.pizza-history {
+    display: flex;
+    flex-direction: row;
+}
+
+.pizza-history h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.history-price-sum td {
+    color: #64B899;
+}
+
+.order-manage h1, h2 {
+    text-align: center;
+}
+
+.user-select select {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    border-radius: 0;
+}
+
+.user-select button {
+    margin: 10px auto 0;
+    width: 120px;
+    font-size: 18px;
+}
+
+.order-status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-status select {
+    width: 160px;
+    font-size: 20px;
+}
+
+.order-status input {
+    width: 160px;
+    font-size: 20px;
+}
+
+.order-status button {
+    margin: 0;
+    padding: 4px;
+    font-size: 20px;
+}
+
+.pizza-manage {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.pizza-manage h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.tech-support form {
+    display: flex;
+    flex-direction: row;
+}
+
+.tech-support input {
+    width: 200px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.tech-support button {
+    height: 46px;
+}
+
+.techsupport .messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.tech-support .message {
+    border: 1px black solid;
+    width: 60%;
+    padding: 2px;
+    margin-bottom: 4px;
+    background-color: #F4F1DE;
+}
+
+.tech-support .message p {
+    margin: 0;
+}
+
+.tech-support .user-message {
+    margin-left: auto;
+}
+
+.tech-support .response-message {
+    margin-right: auto;
+}
+
+/* User Info */
+
+.user-info {
+    background-color: rgb(252, 204, 128);
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 4px 24px;
+}
+
+.user-info h1 {
+    margin-top: 8px;
+    margin-bottom: 1px;
+}
+
+.user-info p {
+    margin-top: 0;
+}
+
+.user-info form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info label {
+    margin-right: auto;
+}
+
+.user-info input {
+    width: 280px;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 0;
+    border: 0.5px solid black;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+.user-info button {
+    width: 240px;
+    display: block;
+    margin: 10px auto;
+    padding: 12px;
+    border: 2px solid #ddd;    
+    background-color: #64B899;
+    color: whitesmoke;    
+    font-size: 18px;
+}
+
+.user-info button:hover {
+    border-style: dashed;
+    background-color: #7cd1b2;
+}
