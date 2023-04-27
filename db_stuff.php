@@ -1,7 +1,7 @@
 <?php
     $serverName = "localhost";
     $dbUsername = "root";
-    $dbPassword = "zaq1@WSX";
+    $dbPassword = "";
     $dbName = "pizzeria";
 
     function caesarShift($str, $amount) {
